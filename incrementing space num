@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int userNum  = 0;
+   int i = 0;
+   int j = 0;
+
+   /* Your solution goes here  */
+   char x = ' ';
+   while (i <= userNum)
+   {
+      //inner loop will print spaces until it reaches amount of numbers
+      j = 0;
+      while (j < i)
+      {
+         cout << x;
+         ++j;
+      }
+      cout << i << endl;
+      ++i;
+   }
+         
+   
+
+   return 0;
+}
